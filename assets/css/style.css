@@ -190,10 +190,17 @@ h3 {
   font-size:36px;
   line-height:1.278
 }
-.h4,
+
 h4 {
-  font-size:30px;
-  line-height:1.333
+  font-size:22px;
+  line-height:1.333;
+  color: var(--theme-color);
+}
+.h4 {
+  font-size: 22px;
+  line-height: 1.333;
+  color: var(--theme-color);
+  margin-top: 18px;
 }
 .h5,
 h5 {
@@ -2739,6 +2746,7 @@ a.text-theme:hover,
   -webkit-transition:0.4s ease-in-out;
   transition:0.4s ease-in-out
 }
+
 .widget_nav_menu li,
 .widget_meta li,
 .widget_pages li,
@@ -4086,7 +4094,7 @@ ol.wp-block-rss {
   .th-widget-about .about-text {
     margin-bottom:20px
   }
-  .social-box.mb-30 {
+  .social-box.mb-20 {
     margin-bottom:25px
   }
 }
@@ -5598,7 +5606,7 @@ blockquote,
   border-radius:15px
 }
 blockquote p,
-.wp-block-quote p {
+.wp-block-quote p{
   font-size:inherit;
   font-family:inherit;
   margin-top:-0.3em;
@@ -5607,7 +5615,8 @@ blockquote p,
   color:inherit;
   width:100%;
   position:relative;
-  z-index:3
+  z-index:3;
+  font-size: 22px;
 }
 blockquote p a,
 .wp-block-quote p a {
@@ -5907,11 +5916,12 @@ blockquote.has-very-dark-gray-color {
   box-shadow:0px 6px 30px rgba(0,0,0,0.06);
   overflow:hidden
 }
-.blog-single .blog-title {
+.blog-single .blog-title{
   margin-bottom:15px;
   font-size:30px;
   line-height:1.25;
-  font-weight:600
+  font-weight:600;
+  color: #583708;
 }
 .blog-single .blog-text {
   margin-bottom:27px
@@ -5919,9 +5929,9 @@ blockquote.has-very-dark-gray-color {
 .blog-single .blog-meta {
   margin:-0.35em 0 16px 0
 }
-.blog-single .blog-content {
+.blog-single .blog-content{
   margin:0 0 0 0;
-  padding:var(--blog-space-y, 40px) var(--blog-space-x, 40px);
+  padding:30px 0;
   position:relative
 }
 .blog-single .blog-content .blog-single {
@@ -9438,7 +9448,7 @@ span.select2-selection.select2-selection--single:focus {
 .contact-feature .box-text {
   line-height:28px;
   /*! max-width:241px; */
-  text-align: ;
+  /* text-align: ; */
   font-size: 19px;
   padding: 3px 0;
 }
@@ -10795,7 +10805,7 @@ span.select2-selection.select2-selection--single:focus {
   margin-bottom:0
 }
 .check-list li {
-  margin-bottom:16px
+  margin-bottom:6px;
 }
 .check-list li:last-child {
   margin-bottom:0
@@ -12777,9 +12787,8 @@ span.select2-selection.select2-selection--single:focus {
 .mb-25 {
   margin-bottom:25px
 }
-.mb-30 {
-  margin-bottom:30px
-}
+.mb-20{
+  margin-bottom:10px;}
 .mb-35 {
   margin-bottom:35px
 }
